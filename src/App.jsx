@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      
+      <p>KİŞİSEL WEB SAYFASI</p>
     </>
   )
 }
