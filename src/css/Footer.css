@@ -1,0 +1,43 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px
+}
+
+.footer-header {
+    font-family: "Roboto";
+    font-size: 65px;
+    color: #4631d4;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footer-text {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 30px;
+    width: 550px;
+    margin-top: 0;
+    color: #110b38;
+}
+
+.footer-email {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #4631d4;
+    border-bottom: 2px solid #4631d4;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.fa-brands {
+    color: #4631d4;
+    font-size: 45px;
+}

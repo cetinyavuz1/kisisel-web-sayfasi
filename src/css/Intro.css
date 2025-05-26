@@ -1,0 +1,75 @@
+.intro-background {
+    background: linear-gradient(to right, #4631d4 70%, #caf280 30%);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+}
+
+.intro-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 475px;
+}
+
+.intro-header {
+    color: #caf280;
+    font-size: 90px;
+    font-family: "Roboto";
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.intro-info {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Roboto";
+    margin-bottom: 40px;
+}
+
+.intro-img {
+    width: 475px;
+    height: 475px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.intro-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #372fa3;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 500;
+    color: #372fa3;
+    cursor: pointer;
+}
+
+.button-text {
+    margin: 0;
+}
+
+.fa-brands {
+    font-size: 40px;
+}

@@ -1,0 +1,66 @@
+.header-background {
+    background: linear-gradient(to right, #4631d4 70%, #caf280 30%);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65vw;
+    margin-top: 150px;
+}
+
+.header-name-location {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-name {
+    font-family: "Roboto";
+    font-size: 50px;
+    color: #caf280;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 475px;
+    gap: 50px
+}
+
+.lang-button {
+    border: none;
+    background-color: #4631d4;
+    color: #d9d9d9;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.lang {
+    color: #cbf283;
+}
+
+#switch {
+    font-size: 20px;
+    background-color: #8F88FF;
+}
+
+.header-mode {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #4631d4;
+    letter-spacing: 3px;
+}
+
+.form-check {
+    width: 193px;
+}

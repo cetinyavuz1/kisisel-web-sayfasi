@@ -1,0 +1,64 @@
+.skills-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 50px auto
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65vw;
+}
+
+.skills-header {
+    color: #4833d4;
+    font-size: 70px;
+    font-family: "Roboto";
+    width: 25%;
+    margin-top: 0;
+}
+
+.skills-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skills-total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+}
+
+.skills-icons {
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills-text {
+    font-family: "Roboto";
+    color: #787878;
+    font-size: 40px
+}
+
+.skills-redux {
+    background-color: #764abd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reduxonly {
+    width: 100px;
+    height: 100px;
+}
