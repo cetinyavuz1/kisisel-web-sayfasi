@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.dark-mode .profile-background {
+    background-color: #171042;
+}
+
 .profile-container {
     width: 65vw;
     display: flex;

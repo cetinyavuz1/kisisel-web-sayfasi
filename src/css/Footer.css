@@ -13,6 +13,10 @@
     margin-bottom: 50px;
 }
 
+.dark-mode .footer-header {
+    color: #8f87ff;
+}
+
 .footer-text {
     font-family: "Roboto";
     text-align: center;
@@ -20,6 +24,10 @@
     width: 550px;
     margin-top: 0;
     color: #110b38;
+}
+
+.dark-mode .footer-text {
+    color: #ffffff;
 }
 
 .footer-email {
@@ -31,6 +39,10 @@
     margin-bottom: 30px;
 }
 
+.dark-mode .footer-email {
+    color: #8f87ff;
+}
+
 .footer-icons {
     display: flex;
     flex-direction: row;
@@ -40,4 +52,8 @@
 .fa-brands {
     color: #4631d4;
     font-size: 45px;
+}
+
+.dark-mode .fa-brands {
+    color: #8f87ff;
 }
