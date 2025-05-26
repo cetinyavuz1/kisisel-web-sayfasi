@@ -80,10 +80,10 @@
     margin: 0;
 }
 
-.fa-brands {
+.icon {
     font-size: 40px;
 }
 
-.dark-mode .fa-brands {
+.dark-mode .icon {
     color: #e3e3e3;
 }

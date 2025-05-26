@@ -18,7 +18,7 @@ export default function Header() {
                     <Form className="header-buttons">
                         {language === "en" ? (<button className="lang-button" type="button" onClick={changeLanguage}><span className="lang">TÜRKÇE</span>'YE GEÇ</button>) :
                             (<button className="lang-button" type="button" onClick={changeLanguage}>SWITCH TO <span className="lang">ENGLISH</span></button>)}
-                        <FormGroup switch>
+                        {darkMode ? (<FormGroup switch>
                             <Input
                                 type="switch"
                                 id="switch"
@@ -26,7 +26,14 @@ export default function Header() {
                                 onClick={toggleDarkMode}
                             />
                             <Label htmlFor="switch" className="header-mode" check>DARK MODE</Label>
-                        </FormGroup>
+                        </FormGroup>) : (<FormGroup switch>
+                            <Input
+                                type="switch"
+                                id="switch"
+                                onClick={toggleDarkMode}
+                            />
+                            <Label htmlFor="switch" className="header-mode" check>LIGHT MODE</Label>
+                        </FormGroup>)}
                     </Form>
                 </div>
             </div>

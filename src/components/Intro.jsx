@@ -20,11 +20,11 @@ export default function Intro() {
                         <p className="intro-info">{languageData.intro.intro2}</p>
                         <div className="intro-buttons">
                             <button onClick={handleRedirect} className="intro-button">
-                                <i className="fa-brands fa-github"></i>
+                                <i className="fa-brands fa-github icon"></i>
                                 <p className="button-text">Github</p>
                             </button>
                             <button className="intro-button">
-                                <i className="fa-brands fa-linkedin-in"></i>
+                                <i className="fa-brands fa-linkedin-in icon"></i>
                                 <p className="button-text">Linkedin</p>
                             </button>
                         </div>

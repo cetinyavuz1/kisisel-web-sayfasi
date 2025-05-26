@@ -13,10 +13,10 @@ export default function Footer() {
                 <p className="footer-text">{languageData.footer.text}</p>
                 <p className="footer-email">{languageData.footer.email}</p>
                 <div className="footer-icons">
-                    <i className="fa-brands fa-twitter"></i>
-                    <i className="fa-brands fa-codepen"></i>
-                    <i className="fa-brands fa-at"></i>
-                    <i className="fa-brands fa-instagram "></i>
+                    <i className="fa-brands fa-twitter contact"></i>
+                    <i className="fa-brands fa-codepen contact"></i>
+                    <i className="fa-brands fa-at contact"></i>
+                    <i className="fa-brands fa-instagram contact"></i>
                 </div>
             </div>
         </>

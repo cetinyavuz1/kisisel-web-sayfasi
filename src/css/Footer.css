@@ -49,11 +49,11 @@
     gap: 50px;
 }
 
-.fa-brands {
+.contact {
     color: #4631d4;
     font-size: 45px;
 }
 
-.dark-mode .fa-brands {
+.dark-mode .contact {
     color: #8f87ff;
 }
