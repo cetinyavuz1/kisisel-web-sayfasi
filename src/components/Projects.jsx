@@ -1,25 +1,30 @@
 import "../css/Projects.css"
+import { useContext } from "react";
+import { dataContext } from "../contexts/context";
 
 export default function Projects() {
+
+    const { languageData } = useContext(dataContext)
+
     return (
         <>
             <div className="projects-background">
                 <div className="projects-container">
-                    <h2 className="projects-header">Projects</h2>
+                    <h2 className="projects-header">{languageData.projects.title}</h2>
                     <div className="projects">
                         <div className="projects-project">
-                            <img className="projects-img" src="./src/assets/kedy3.jpg" />
+                            <img className="projects-img" src={languageData.projects.projectsImg} />
                             <div className="projects-pizza">
-                                <h3 className="projects-header2">Pizza Sipariş</h3>
-                                <p className="projects-text">A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.</p>
+                                <h3 className="projects-header2">{languageData.projects.projectsHeader}</h3>
+                                <p className="projects-text">{languageData.projects.projectsText}</p>
                                 <div className="projects-tools">
                                     <p className="projects-tools-single">react</p>
                                     <p className="projects-tools-single">redux</p>
                                     <p className="projects-tools-single">vercel</p>
                                 </div>
                                 <div className="projects-links">
-                                    <a className="links-style" href="" >View Site</a>
-                                    <a className="links-style" href="https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza" target="_blank">Github</a>
+                                    <a className="links-style" href="" >{languageData.projects.site}</a>
+                                    <a className="links-style" href={languageData.projects.githubURL} target="_blank">{languageData.projects.github}</a>
                                 </div>
                             </div>
                         </div>

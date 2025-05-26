@@ -36,7 +36,7 @@ export const data = {
             personalAnswer4: "Frontend, UI",
             profileImg: "./src/assets/kedy2.jpg",
             about: "About Me",
-            aboutInfo: "My name is Çetin Yavuz. After graduating from the Department of English Language and Literature, I decided to take a course in frontend development. Discovering the world of software has been an exciting and inspiring experience for me. Now, I aim to build my career as a frontend developer by improving my skills in this field."
+            aboutInfo: "My name is Çetin Yavuz. After graduating from the Department of English Language and Literature, I decided to take a course in frontend development. Discovering the world of software has been an exciting and inspiring experience for me."
         },
         projects: {
             title: "Projects",
@@ -63,7 +63,7 @@ export const data = {
             intro2: "Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturmayı, harika kullanıcı deneyimleriyle birlikte sunmayı seviyorum.",
         },
         skills: {
-            title: "Yetenekler",
+            title: "Beceriler",
             logo1: "./src/assets/javascript.jpg",
             logo2: "./src/assets/nodejs.jpg",
             logo3: "./src/assets/react.png",
@@ -90,7 +90,7 @@ export const data = {
             personalAnswer4: "Frontend, UI",
             profileImg: "./src/assets/kedy2.jpg",
             about: "Hakkımda",
-            aboutInfo: "Ben Çetin Yavuz. İngiliz Dili ve Edebiyatı bölümünden mezun olduktan sonra kariyerime farklı bir yön vererek frontend yazılım alanında eğitim aldım. Yazılım dünyasıyla tanışmak benim için oldukça heyecan verici ve ilham verici bir deneyim oldu. Şimdi ise bu alandaki yetkinliklerimi geliştirerek kariyerime frontend geliştirici olarak devam etmeyi hedefliyorum."
+            aboutInfo: "Ben Çetin Yavuz. İngiliz Dili ve Edebiyatı bölümünden mezun olduktan sonra kariyerime farklı bir yön vererek frontend yazılım alanında eğitim aldım. Yazılım dünyasıyla tanışmak benim için oldukça heyecan verici ve ilham verici bir deneyim oldu."
         },
         projects: {
             title: "Projeler",

@@ -1,13 +1,17 @@
 import "../css/Footer.css"
+import { useContext } from "react";
+import { dataContext } from "../contexts/context";
 
 export default function Footer() {
+
+    const { languageData } = useContext(dataContext)
+
     return (
         <>
             <div className="footer-container">
-                <h2 className="footer-header">Send me a message!</h2>
-                <p className="footer-text">Got a question or proposal, or just want
-                    to say hello? Go ahead.</p>
-                <p className="footer-email">cetinyavuz1@hotmail.com</p>
+                <h2 className="footer-header">{languageData.footer.title}</h2>
+                <p className="footer-text">{languageData.footer.text}</p>
+                <p className="footer-email">{languageData.footer.email}</p>
                 <div className="footer-icons">
                     <i className="fa-brands fa-twitter"></i>
                     <i className="fa-brands fa-codepen"></i>
