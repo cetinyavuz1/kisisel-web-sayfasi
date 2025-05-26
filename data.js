@@ -10,22 +10,12 @@ export const data = {
         },
         skills: {
             title: "Skills",
-            logo1: "./src/assets/javascript.jpg",
-            logo2: "./src/assets/nodejs.jpg",
-            logo3: "./src/assets/react.png",
-            logo4: "./src/assets/vscode.png",
-            logo5: "./src/assets/redux.png",
-            logo6: "./src/assets/figma.jpg",
-            name1: "JAVASCRIPT",
-            name2: "NODE",
-            name3: "REACT",
-            name4: "VS CODE",
-            name5: "REDUX",
-            name6: "FIGMA"
+            logos: [{ logo: "./src/assets/javascript.jpg", name: "JAVASCRIPT" }, { logo: "./src/assets/nodejs.jpg", name: "NODE" }, { logo: "./src/assets/react.png", name: "REACT" }, { logo: "./src/assets/vscode.png", name: "VS CODE" }, { logo: "./src/assets/redux.png", name: "REDUX" }, { logo: "./src/assets/figma.jpg", name: "FIGMA" }]
         },
         profile: {
             title: "Profile",
             info: "Basic Information",
+            personalInfo: [{ title: "Birthday", answer: "30.07.1998" }, { title: "City ​of Residence", answer: "İzmir" }, { title: "Educational Background", answer: "Dumlupınar Uni English Language and Literature Degree, 2021" }, { title: "Preferred Role", answer: "Frontend, UI" }],
             personalHeader: "Birthday",
             personalHeader2: "City ​of Residence",
             personalHeader3: "Educational Background",
@@ -44,6 +34,7 @@ export const data = {
             projectsHeader: "Teknolojik Yemekler",
             projectsText: `The "Teknolojik Yemekler" project is a pizza order page. This single-page application, built with React, provides a user interface where users can place pizza orders. User experience and interface design were given significant importance. The project is designed as an application to evaluate independent working skills and technical presentation abilities.`,
             githubURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
+            siteURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
             site: "View Site",
             github: "Github"
         },
@@ -64,22 +55,12 @@ export const data = {
         },
         skills: {
             title: "Beceriler",
-            logo1: "./src/assets/javascript.jpg",
-            logo2: "./src/assets/nodejs.jpg",
-            logo3: "./src/assets/react.png",
-            logo4: "./src/assets/vscode.png",
-            logo5: "./src/assets/redux.png",
-            logo6: "./src/assets/figma.jpg",
-            name1: "JAVASCRIPT",
-            name2: "NODE",
-            name3: "REACT",
-            name4: "VS CODE",
-            name5: "REDUX",
-            name6: "FIGMA"
+            logos: [{ logo: "./src/assets/javascript.jpg", name: "JAVASCRIPT" }, { logo: "./src/assets/nodejs.jpg", name: "NODE" }, { logo: "./src/assets/react.png", name: "REACT" }, { logo: "./src/assets/vscode.png", name: "VS CODE" }, { logo: "./src/assets/redux.png", name: "REDUX" }, { logo: "./src/assets/figma.jpg", name: "FIGMA" }]
         },
         profile: {
             title: "Profil",
             info: "Temel Bilgiler",
+            personalInfo: [{ title: "Doğum Tarihi", answer: "30.07.1998" }, { title: "İkamet Şehri", answer: "İzmir" }, { title: "Eğitim Durumu", answer: "Dumlupınar Üni İngiliz Dili ve Edebiyatı Lisans, 2021" }, { title: "Preferred Role", answer: "Frontend, UI" }],
             personalHeader: "Doğum Tarihi",
             personalHeader2: "İkamet Şehri",
             personalHeader3: "Eğitim Durumu",
@@ -98,6 +79,7 @@ export const data = {
             projectsHeader: "Teknolojik Yemekler",
             projectsText: `Teknolojik Yemekler projesi bir pizza sipariş sayfasıdır. React ile oluşturulmuş bu tek sayfalık uygulama kullanıcının pizza siparişi verebileceği bir arayüz sunar. Kullanıcı deneyimi ve arayüz tasarımına önem verilmiştir. Proje, bağımsız çalışma becerisini ve teknik sunum yeteneğini değerlendiren bir uygulama olarak tasarlanmıştır.`,
             githubURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
+            siteURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
             site: "Siteyi Görüntüle",
             github: "Github"
         },

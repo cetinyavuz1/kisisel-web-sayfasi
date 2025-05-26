@@ -8,6 +8,7 @@ const DataContextProvider = ({ children }) => {
 
     const [language, setLanguage] = useState("en")
     const [languageData, setLanguageData] = useState(data.en)
+    const [darkMode, setDarkMode] = useState(true);
 
     const postData = () => {
         axios.post("https://reqres.in/api/workintech", data[language], {
@@ -32,9 +33,13 @@ const DataContextProvider = ({ children }) => {
         }
     }
 
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode)
+    }
+
 
     return (
-        <dataContext.Provider value={{ changeLanguage, languageData, language }}>
+        <dataContext.Provider value={{ changeLanguage, languageData, language, darkMode, toggleDarkMode }}>
             {children}
         </dataContext.Provider>
     )

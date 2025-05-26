@@ -4,9 +4,9 @@ import { useContext, useState } from "react";
 import { dataContext } from "../contexts/context";
 
 export default function Header() {
-    const [mode, setMode] = useState(true);
 
-    const { changeLanguage, languageData, language } = useContext(dataContext)
+
+    const { changeLanguage, languageData, language, darkMode, toggleDarkMode } = useContext(dataContext)
 
     return (
         <>
@@ -22,10 +22,8 @@ export default function Header() {
                             <Input
                                 type="switch"
                                 id="switch"
-                                checked={mode}
-                                onClick={() => {
-                                    setMode(!mode);
-                                }}
+                                checked={darkMode}
+                                onClick={toggleDarkMode}
                             />
                             <Label htmlFor="switch" className="header-mode" check>DARK MODE</Label>
                         </FormGroup>

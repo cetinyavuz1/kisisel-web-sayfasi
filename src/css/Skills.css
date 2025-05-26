@@ -21,6 +21,10 @@
     margin-top: 0;
 }
 
+.dark-mode .skills-header {
+    color: #caf280;
+}
+
 .skills-skills {
     display: flex;
     flex-direction: row;
@@ -51,14 +55,6 @@
     font-size: 40px
 }
 
-.skills-redux {
-    background-color: #764abd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.reduxonly {
-    width: 100px;
-    height: 100px;
+.dark-mode .skills-text {
+    color: #ffffff;
 }

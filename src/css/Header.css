@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.dark-mode .header-background {
+    background: linear-gradient(to right, #171042 70%, #211f0b 30%);
+}
+
 .header-container {
     display: flex;
     flex-direction: row;
@@ -45,8 +49,17 @@
     width: 200px;
 }
 
+.dark-mode .lang-button {
+    background-color: #171042;
+    color: #787878;
+}
+
 .lang {
     color: #cbf283;
+}
+
+.dark-mode .lang {
+    color: #bbb3e8;
 }
 
 #switch {

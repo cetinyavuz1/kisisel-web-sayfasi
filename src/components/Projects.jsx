@@ -23,7 +23,7 @@ export default function Projects() {
                                     <p className="projects-tools-single">vercel</p>
                                 </div>
                                 <div className="projects-links">
-                                    <a className="links-style" href="" >{languageData.projects.site}</a>
+                                    <a className="links-style" href={languageData.projects.siteURL} target="_blank">{languageData.projects.site}</a>
                                     <a className="links-style" href={languageData.projects.githubURL} target="_blank">{languageData.projects.github}</a>
                                 </div>
                             </div>
