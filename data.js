@@ -34,7 +34,7 @@ export const data = {
             projectsHeader: "Teknolojik Yemekler",
             projectsText: `The "Teknolojik Yemekler" project is a pizza order page. This single-page application, built with React, provides a user interface where users can place pizza orders. User experience and interface design were given significant importance. The project is designed as an application to evaluate independent working skills and technical presentation abilities.`,
             githubURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
-            siteURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
+            siteURL: "https://fsweb-s8-challenge-pizza-eight.vercel.app/",
             site: "View Site",
             github: "Github"
         },
@@ -80,7 +80,7 @@ export const data = {
             projectsHeader: "Teknolojik Yemekler",
             projectsText: `Teknolojik Yemekler projesi bir pizza sipariş sayfasıdır. React ile oluşturulmuş bu tek sayfalık uygulama kullanıcının pizza siparişi verebileceği bir arayüz sunar. Kullanıcı deneyimi ve arayüz tasarımına önem verilmiştir. Proje, bağımsız çalışma becerisini ve teknik sunum yeteneğini değerlendiren bir uygulama olarak tasarlanmıştır.`,
             githubURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
-            siteURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
+            siteURL: "https://fsweb-s8-challenge-pizza-eight.vercel.app/",
             site: "Siteyi Görüntüle",
             github: "Github"
         },
