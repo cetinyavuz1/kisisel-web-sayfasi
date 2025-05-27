@@ -60,7 +60,7 @@ export const data = {
         profile: {
             title: "Profil",
             info: "Temel Bilgiler",
-            personalInfo: [{ title: "Doğum Tarihi", answer: "30.07.1998" }, { title: "İkamet Şehri", answer: "İzmir" }, { title: "Eğitim Durumu", answer: "Dumlupınar Üni İngiliz Dili ve Edebiyatı Lisans, 2021" }, { title: "Tercih Edilen Rol", answer: "Frontend, UI" }],
+            personalInfo: [{ title: "Doğum Tarihi", answer: "30.07.1998" }, { title: "İkamet Şehri", answer: "İzmir" }, { title: "Eğitim Durumu", answer: "Dumlupınar Üni İngiliz Dili ve Edebiyatı Lisans, 2021" }, { title: "Tercih Ettiği Rol", answer: "Frontend, UI" }],
             personalHeader: "Doğum Tarihi",
             personalHeader2: "İkamet Şehri",
             personalHeader3: "Eğitim Durumu",
