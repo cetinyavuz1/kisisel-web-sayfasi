@@ -93,6 +93,11 @@
         flex-direction: column;
         height: auto;
         padding: 40px 0;
+        background: #4631d4;
+    }
+
+    .dark-mode .intro-background {
+        background: #171042;
     }
 
     .intro-container {
@@ -109,17 +114,19 @@
     }
 
     .intro-header {
-        font-size: 50px;
+        font-size: 45px;
         margin-bottom: 20px;
+        text-align: left;
     }
 
     .intro-info {
         font-size: 20px;
         margin-bottom: 25px;
+        text-align: left;
     }
 
     .intro-buttons {
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
         align-items: center;
     }
