@@ -94,3 +94,63 @@
     font-weight: 350;
     line-height: 35px
 }
+
+@media (max-width: 768px) {
+    .profile-background {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .profile-container {
+        width: 90vw;
+    }
+
+    .profile-header {
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .profile-info {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        gap: 30px;
+    }
+
+    .profile-basic,
+    .profile-about {
+        width: 100%;
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: auto;
+    }
+
+    .profile-header2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .profile-personal {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .profile-personal-header,
+    .profile-personal-text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .profile-personal-text2 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+}

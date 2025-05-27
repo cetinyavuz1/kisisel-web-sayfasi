@@ -87,3 +87,55 @@
 .dark-mode .icon {
     color: #e3e3e3;
 }
+
+@media (max-width: 768px) {
+    .intro-background {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .intro-container {
+        flex-direction: column;
+        width: 90vw;
+        gap: 30px;
+    }
+
+    .intro-intro {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-header {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .intro-info {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .intro-buttons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .intro-button {
+        width: 80%;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .intro-img {
+        width: 300px;
+        height: 300px;
+    }
+}

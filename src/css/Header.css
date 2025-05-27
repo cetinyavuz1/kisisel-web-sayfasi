@@ -87,3 +87,53 @@
 .form-check {
     width: 193px;
 }
+
+@media (max-width: 768px) {
+    .header-background {
+        height: auto;
+        padding: 20px 0;
+        background: #4631d4;
+    }
+
+    .dark-mode .header-background {
+        background: #171042;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .header-name {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .lang-button {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .form-check {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-mode {
+        font-size: 18px;
+        text-align: center;
+        color: #caf280;
+    }
+}

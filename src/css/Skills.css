@@ -58,3 +58,46 @@
 .dark-mode .skills-text {
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .skills-background {
+        height: auto;
+        padding: 40px 0;
+        margin: 20px auto;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .skills-header {
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .skills-skills {
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .skills-total {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .skills-icons {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills-text {
+        font-size: 25px;
+    }
+}
