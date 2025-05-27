@@ -58,7 +58,7 @@
     color: #8f87ff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .footer-container {
         padding-bottom: 80px;
     }
