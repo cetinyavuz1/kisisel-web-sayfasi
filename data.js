@@ -4,13 +4,13 @@ export const data = {
             profileName: "Çetin Yavuz"
         },
         intro: {
-            introImg: "./src/assets/kedy.PNG",
+            introImg: "/src/assets/kedy.PNG",
             intro: "I am a Frontend Developer...",
             intro2: "...who likes to craft solid and scalable frontend products with great user experiences."
         },
         skills: {
             title: "Skills",
-            logos: [{ logo: "./src/assets/javascript.jpg", name: "JAVASCRIPT" }, { logo: "./src/assets/nodejs.jpg", name: "NODE" }, { logo: "./src/assets/react.png", name: "REACT" }, { logo: "./src/assets/vscode.png", name: "VS CODE" }, { logo: "./src/assets/redux.png", name: "REDUX" }, { logo: "./src/assets/figma.jpg", name: "FIGMA" }]
+            logos: [{ logo: "/src/assets/javascript.jpg", name: "JAVASCRIPT" }, { logo: "/src/assets/nodejs.jpg", name: "NODE" }, { logo: "/src/assets/react.png", name: "REACT" }, { logo: "/src/assets/vscode.png", name: "VS CODE" }, { logo: "/src/assets/redux.png", name: "REDUX" }, { logo: "/src/assets/figma.jpg", name: "FIGMA" }]
         },
         profile: {
             title: "Profile",
@@ -24,13 +24,13 @@ export const data = {
             personalAnswer2: "İzmir",
             personalAnswer3: "Dumlupınar Uni English Language and Literature Degree, 2021",
             personalAnswer4: "Frontend, UI",
-            profileImg: "./src/assets/kedy2.jpg",
+            profileImg: "/src/assets/kedy2.jpg",
             about: "About Me",
             aboutInfo: "My name is Çetin Yavuz. After graduating from the Department of English Language and Literature, I decided to take a course in frontend development. Discovering the world of software has been an exciting and inspiring experience for me."
         },
         projects: {
             title: "Projects",
-            projectsImg: "./src/assets/kedy3.jpg",
+            projectsImg: "/src/assets/kedy3.jpg",
             projectsHeader: "Teknolojik Yemekler",
             projectsText: `The "Teknolojik Yemekler" project is a pizza order page. This single-page application, built with React, provides a user interface where users can place pizza orders. User experience and interface design were given significant importance. The project is designed as an application to evaluate independent working skills and technical presentation abilities.`,
             githubURL: "https://github.com/cetinyavuz1/fsweb-s8-challenge-pizza",
