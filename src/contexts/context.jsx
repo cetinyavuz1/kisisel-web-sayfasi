@@ -6,18 +6,25 @@ export const dataContext = createContext()
 
 const DataContextProvider = ({ children }) => {
 
-    const [language, setLanguage] = useState("en")
-    const [languageData, setLanguageData] = useState(data.en)
-    const [darkMode, setDarkMode] = useState(true);
+    const [language, setLanguage] = useState(() => {
+        return localStorage.getItem("language") || "en";
+    });
+    const [languageData, setLanguageData] = useState(() => {
+        const saved = localStorage.getItem("languageData");
+        return saved ? JSON.parse(saved) : data.en;
+    });
+    const [darkMode, setDarkMode] = useState(() => {
+        return localStorage.getItem("darkMode") === "true";
+    });
 
     const postData = () => {
+
         axios.post("https://reqres.in/api/workintech", data[language], {
             headers: {
                 "x-api-key": "reqres-free-v1"
             }
         }).then((res) => {
             setLanguageData(res.data)
-            console.log(res.data)
         }).catch((err) => console.log(err))
     }
 
@@ -36,6 +43,18 @@ const DataContextProvider = ({ children }) => {
     const toggleDarkMode = () => {
         setDarkMode(!darkMode)
     }
+
+    useEffect(() => {
+        localStorage.setItem("darkMode", darkMode)
+    }, [darkMode])
+
+    useEffect(() => {
+        localStorage.setItem("language", language);
+    }, [language]);
+
+    useEffect(() => {
+        localStorage.setItem("languageData", JSON.stringify(languageData));
+    }, [languageData]);
 
 
     return (
