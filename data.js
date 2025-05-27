@@ -10,7 +10,7 @@ export const data = {
         },
         skills: {
             title: "Skills",
-            logos: [{ logo: "/assets/javascript.jpg", name: "JAVASCRIPT" }, { logo: "/assets/nodejs.jpg", name: "NODE" }, { logo: "/assets/react.png", name: "REACT" }, { logo: "/assets/vscode.png", name: "VS CODE" }, { logo: "/assets/redux.png", name: "REDUX" }, { logo: "/assets/figma.jpg", name: "FIGMA" }]
+            logos: [{ logo: "/assets/javascript.jpg", name: "JAVASCRIPT" }, { logo: "/assets/nodejs.jpg", name: "NODE" }, { logo: "/assets/react.png", name: "REACT" }, { logo: "/assets/vscode.png", name: "VS CODE" }, { logo: "/assets/redux.PNG", name: "REDUX" }, { logo: "/assets/figma.jpg", name: "FIGMA" }]
         },
         profile: {
             title: "Profile",
@@ -55,7 +55,7 @@ export const data = {
         },
         skills: {
             title: "Beceriler",
-            logos: [{ logo: "/assets/javascript.jpg", name: "JAVASCRIPT" }, { logo: "/assets/nodejs.jpg", name: "NODE" }, { logo: "/assets/react.png", name: "REACT" }, { logo: "/assets/vscode.png", name: "VS CODE" }, { logo: "/assets/redux.png", name: "REDUX" }, { logo: "/assets/figma.jpg", name: "FIGMA" }]
+            logos: [{ logo: "/assets/javascript.jpg", name: "JAVASCRIPT" }, { logo: "/assets/nodejs.jpg", name: "NODE" }, { logo: "/assets/react.png", name: "REACT" }, { logo: "/assets/vscode.png", name: "VS CODE" }, { logo: "/assets/redux.PNG", name: "REDUX" }, { logo: "/assets/figma.jpg", name: "FIGMA" }]
         },
         profile: {
             title: "Profil",
