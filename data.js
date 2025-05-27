@@ -42,6 +42,7 @@ export const data = {
             title: "Send me a message!",
             text: "Got a question or proposal, or just want to say hello? Go ahead.",
             email: "cetinyavuz1@hotmail.com",
+            icons: [{ link: "https://x.com/cetinyavuz_", class: "fa-brands fa-twitter contact" }, { link: "https://codepen.io/-etin-Yavuz", class: "fa-brands fa-codepen contact" }, { link: "mailto:cetinyavuz1@hotmail.com", class: "fa-brands fa-at contact" }, { link: "https://www.instagram.com/cetin_yavuz/", class: "fa-brands fa-instagram contact" }]
         }
     },
     tr: {
@@ -87,6 +88,7 @@ export const data = {
             title: "Bana bir mesaj gönder!",
             text: "Bir sorunuz veya öneriniz mi var, ya da sadece merhaba demek mi istiyorsunuz? Buyurun, çekinmeyin.",
             email: "cetinyavuz1@hotmail.com",
+            icons: [{ link: "https://x.com/cetinyavuz_", class: "fa-brands fa-twitter contact" }, { link: "https://codepen.io/-etin-Yavuz", class: "fa-brands fa-codepen contact" }, { link: "mailto:cetinyavuz1@hotmail.com", class: "fa-brands fa-at contact" }, { link: "https://www.instagram.com/cetin_yavuz/", class: "fa-brands fa-instagram contact" }]
         }
     }
 }

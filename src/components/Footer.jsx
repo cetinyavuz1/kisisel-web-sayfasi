@@ -13,10 +13,9 @@ export default function Footer() {
                 <p className="footer-text">{languageData.footer.text}</p>
                 <p className="footer-email">{languageData.footer.email}</p>
                 <div className="footer-icons">
-                    <i className="fa-brands fa-twitter contact"></i>
-                    <i className="fa-brands fa-codepen contact"></i>
-                    <i className="fa-brands fa-at contact"></i>
-                    <i className="fa-brands fa-instagram contact"></i>
+                    {languageData.footer.icons.map((elm, index) => {
+                        return <a href={elm.link} key={index} target="_blank"><i className={elm.class}></i></a>
+                    })}
                 </div>
             </div>
         </>
