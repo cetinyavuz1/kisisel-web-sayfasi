@@ -54,6 +54,10 @@
     font-size: 45px;
 }
 
+.contact:hover {
+    transform: scale(1.20);
+}
+
 .dark-mode .contact {
     color: #8f87ff;
 }
