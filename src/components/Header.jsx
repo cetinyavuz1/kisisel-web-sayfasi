@@ -22,17 +22,17 @@ export default function Header() {
                             <Input
                                 type="switch"
                                 id="switch"
-                                checked={darkMode}
                                 onClick={toggleDarkMode}
                             />
-                            <Label htmlFor="switch" className="header-mode" check>DARK MODE</Label>
+                            <Label htmlFor="switch" className="header-mode" check>LIGHT MODE</Label>
                         </FormGroup>) : (<FormGroup switch>
                             <Input
                                 type="switch"
                                 id="switch"
+                                checked={!darkMode}
                                 onClick={toggleDarkMode}
                             />
-                            <Label htmlFor="switch" className="header-mode" check>LIGHT MODE</Label>
+                            <Label htmlFor="switch" className="header-mode" check>DARK MODE</Label>
                         </FormGroup>)}
                     </Form>
                 </div>

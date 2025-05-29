@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className={darkMode ? "" : "dark-mode"} >
+      <div className={darkMode ? "dark-mode" : ""} >
         <Header />
         <Intro />
         <Skills />

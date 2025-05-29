@@ -15,7 +15,7 @@ const DataContextProvider = ({ children }) => {
     });
     const [darkMode, setDarkMode] = useState(() => {
         const saved = localStorage.getItem("darkMode");
-        return saved ? saved === "true" : true;
+        return saved === null ? false : saved === "true";
     });
 
     const postData = () => {
@@ -46,7 +46,7 @@ const DataContextProvider = ({ children }) => {
     }
 
     useEffect(() => {
-        localStorage.setItem("darkMode", String(darkMode))
+        localStorage.setItem("darkMode", darkMode)
     }, [darkMode])
 
     useEffect(() => {
