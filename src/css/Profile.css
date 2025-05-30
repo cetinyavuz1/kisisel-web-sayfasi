@@ -11,14 +11,18 @@
 }
 
 .profile-container {
-    width: 65vw;
+    width: 100%;
+    max-width: 1250px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .profile-header {
-    width: 65vw;
+    width: 100%;
+    max-width: 1250px;
+    box-sizing: border-box;
     text-align: left;
     color: #caf280;
     font-family: "Roboto";
@@ -31,7 +35,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 65vw;
+    width: 100%;
+    max-width: 1250px;
+    box-sizing: border-box;
     height: 380px;
 }
 

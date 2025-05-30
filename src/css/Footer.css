@@ -1,8 +1,18 @@
+.footer-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 130px
+    padding-bottom: 130px;
+    width: 100%;
+    max-width: 1250px;
+    box-sizing: border-box;
 }
 
 .footer-header {
